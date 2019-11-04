@@ -1,4 +1,9 @@
-Get-AppxPackage -allusers *Print3D* | Remove-AppxPackage
+Get-AppxPackage -allusers *alarm* | Remove-AppxPackage
+Get-AppxPackage -allusers *camera* | Remove-AppxPackage
+Get-AppxPackage -allusers *help* | Remove-AppxPackage
+Get-AppxPackage -allusers *reality* | Remove-AppxPackage
+Get-AppxPackage -allusers *weather* | Remove-AppxPackage
+Get-AppxPackage -allusers *3D* | Remove-AppxPackage
 Get-AppxPackage -allusers *Xbox* | Remove-AppxPackage
 Get-AppxPackage -allusers *BingNews* | Remove-AppxPackage
 Get-AppxPackage -allusers *Zune* | Remove-AppxPackage
