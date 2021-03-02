@@ -50,4 +50,5 @@ Get-AppxPackage -allusers *Flipboard* | Remove-AppxPackage
 Get-AppxPackage -allusers *Twitter* | Remove-AppxPackage
 Get-AppxPackage -allusers *Facebook* | Remove-AppxPackage
 Get-AppxPackage -allusers *Spotify* | Remove-AppxPackage
+Get-AppxPackage -allusers Microsoft.549981C3F5F10 | Remove-AppxPackage
 Get-AppXProvisionedPackage -online | Remove-AppxProvisionedPackage -online
